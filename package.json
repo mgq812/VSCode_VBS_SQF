@@ -1,10 +1,10 @@
 {
-	"name": "sqf",
-	"displayName": "SQF Language",
-	"description": "Full SQF Language support for VS Code.",
+	"name": "vbs-sqf",
+	"displayName": "VBS - SQF Language",
+	"description": "Full VBS SQF Language support for VS Code.",
 	"icon": "img/logo.svg",
-	"version": "0.5.9",
-	"publisher": "Armitxes",
+	"version": "0.0.1",
+	"publisher": "zahngol",
 	"galleryBanner": {
 		"color": "#647e99",
 		"theme": "dark"
@@ -12,13 +12,12 @@
 	"license": "LICENSE.htm",
 	"bugs": {
 		"url": "https://github.com/Armitxes/VSCode_SQF/issues",
-		"email": "4rmitxes@gmail.com"
+		"email": "zahngol@gmail.com"
 	},
-	"homepage": "https://armitxes.net/Projects/VSCodeSQF/",
-	"BI Forum": "https://forums.bistudio.com/topic/182917-vs-code-sqf-visual-studio-code-sqf-language-release-arma-3-arma-2/",
+	"homepage": "https://github.com/zahngol/VSCode_VBS_SQF",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Armitxes/VSCode_SQF.git"
+		"url": "https://github.com/zahngol/VSCode_VBS_SQF.git"
 	},
 	"categories": [
 		"Languages",
@@ -26,12 +25,12 @@
 		"Themes"
 	],
 	"engines": {
-		"vscode": "0.10.x"
+		"vscode": "^1.10.0"
 	},
 	"contributes": {
 		"languages": [
 			{
-				"id": "sqf",
+				"id": "vbs-sqf",
 				"aliases": [
 					"SQF",
 					"sqf",
@@ -46,14 +45,14 @@
 		],
 		"grammars": [
 			{
-				"language": "sqf",
+				"language": "vbs-sqf",
 				"scopeName": "source.sqf",
 				"path": "./syntaxes/sqf.json"
 			}
 		],
 		"snippets": [
 			{
-				"language": "sqf",
+				"language": "vbs-sqf",
 				"path": "./snippets/sqf.json"
 			}
 		],
